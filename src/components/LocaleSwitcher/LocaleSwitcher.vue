@@ -51,4 +51,11 @@ export default {
     background-color: #EED7CE;
     transition: 0.5s;
 }
+@media (max-width: 425px) {
+  .container-locale{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
 </style>

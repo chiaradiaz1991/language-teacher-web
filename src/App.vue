@@ -88,4 +88,36 @@ a:hover {
 a:active {
   color: #B3847C;
 }
+
+@media (max-width: 425px) {
+  #app {
+    width: 100%;
+  }
+  .container-side-images {
+    display: none;
+  }
+  .content-container {
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media (max-width: 1024px) {
+  .container-side-images {
+    display: none;
+  }
+  .content-container {
+    margin-left: 60px;
+    margin-right: 60px;
+
+  }
+}
+@media (max-width: 980px) {
+    #app {
+    width: 100%;
+  }
+  .container-side-images {
+    display: none;
+  }
+}
 </style>

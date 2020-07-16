@@ -31,9 +31,10 @@ export default {};
   width: 400px;
   font-family: "futura std";
   color: #325147;
+  margin-bottom: 30px;
 }
 h3 {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 28px;
 }
 img {
@@ -51,5 +52,32 @@ img {
 }
 p {
   font-size: 18px;
+}
+
+@media (max-width: 425px) {
+.languages-container {
+    width: 300px;
+  }
+  h3 {
+  font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .lang-main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .lang-container {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .lang-main-container {
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 </style>

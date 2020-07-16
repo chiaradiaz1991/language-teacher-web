@@ -35,4 +35,9 @@ p {
   font-size: 24px;
   margin: auto;
 }
+@media (max-width: 425px) {
+  .header-image {
+    width: 300px;
+  }
+}
 </style>

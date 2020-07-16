@@ -43,7 +43,6 @@ export default {};
 }
 .icon {
   text-align: center;
-  /* padding: 20px; */
   margin-bottom: 15px;
 }
 .icon-last {
@@ -52,7 +51,35 @@ export default {};
   margin: auto;
 }
 h3 {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 28px;
+}
+
+@media (max-width: 425px) {
+  .how-container {
+    width: 300px;
+  }
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+  }
+    h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1024px) {
+  .how-container {
+    width: 300px;
+  }
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* .icon {
+  text-align: left;
+  } */
 }
 </style>
