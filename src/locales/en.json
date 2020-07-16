@@ -1,0 +1,25 @@
+{
+  "main": {
+    "header": "Language Teacher",
+    "aboutMe": {
+      "description": "EN About Me:It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like reada.It is a long established factThe point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like reada."
+    },
+    "howIWork": {
+      "individual": "EN individual classes",
+      "online": "EN 100% online",
+      "learn": "EN Learn and have fun",
+      "hours": "EN 2 hours per week",
+      "payment": "EN Payment methods"
+    },
+    "languages": {
+      "pl": "EN Polish",
+      "en": "EN English",
+      "de": "EN Deutsch",
+      "fr": "EN French"
+    },
+    "contact": {
+      "mail": "gosia@gosia",
+      "linkedin": "linkedin"
+    }
+  }
+}
