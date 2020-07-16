@@ -1,10 +1,12 @@
 {
   "main": {
-    "header": "Language Teacher",
+    "header": "FR Language Teacher",
     "aboutMe": {
+      "title": "FR About Me",
       "description": "FR About Me:It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like reada.It is a long established factThe point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like reada."
     },
     "howIWork": {
+      "title": "FR How I work",
       "individual": "FR individual classes",
       "online": "FR 100% online",
       "learn": "FR Learn and have fun",
@@ -12,12 +14,14 @@
       "payment": "FR Payment methods"
     },
     "languages": {
+      "title": "FR Languages",
       "pl": "FR Polish",
       "en": "FR English",
       "de": "FR Deutsch",
       "fr": "FR French"
     },
     "contact": {
+      "title": "FR Contact",
       "mail": "gosia@gosia",
       "linkedin": "linkedin"
     }
