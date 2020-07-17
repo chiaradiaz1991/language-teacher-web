@@ -13,7 +13,7 @@ export default {
 
 <style scoped>
 .about-me-container {
-  width: 400px;
+  width: 300px;
   font-family: 'futura std';
   color:#325147;
 }

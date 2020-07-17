@@ -65,7 +65,13 @@ p {
     h3 {
     font-size: 24px;
   }
-  p {
+}
+
+@media (max-width: 768px) {
+  .icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   }
 }
 @media (max-width: 1024px) {

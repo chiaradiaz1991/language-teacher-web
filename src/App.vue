@@ -50,6 +50,7 @@ body {
   padding: 0;
   background-color: #f7eee7;
 }
+
 .app-container {
   display: flex;
   flex-direction: row;
