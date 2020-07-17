@@ -45,7 +45,6 @@ export default {
   outline: none;
   font-size: 18px;
   font-family: 'futura std';
-  /* text-decoration: underline; */
 }
 .locale:hover {
     background-color: #EED7CE;

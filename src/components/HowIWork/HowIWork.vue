@@ -42,17 +42,16 @@ export default {};
   justify-content: space-between;
 }
 .icon {
-  text-align: center;
   margin-bottom: 15px;
 }
-.icon-last {
-  text-align: center;
-  margin-bottom: 15px;
-  margin: auto;
-}
+
 h3 {
   font-weight: 500;
   font-size: 28px;
+}
+p {
+  text-align: left;
+  font-size: 18px;
 }
 
 @media (max-width: 425px) {
@@ -67,7 +66,6 @@ h3 {
     font-size: 24px;
   }
   p {
-    font-size: 16px;
   }
 }
 @media (max-width: 1024px) {
@@ -78,8 +76,5 @@ h3 {
     display: flex;
     flex-direction: column;
   }
-  /* .icon {
-  text-align: left;
-  } */
 }
 </style>

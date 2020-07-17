@@ -28,7 +28,7 @@ export default {};
 
 <style scoped>
 .languages-container {
-  width: 400px;
+  width: 300px;
   font-family: "futura std";
   color: #325147;
   margin-bottom: 30px;
@@ -45,6 +45,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 300px;
 }
 .lang-container {
   display: flex;
@@ -75,7 +76,6 @@ p {
 }
 @media (max-width: 1024px) {
   .lang-main-container {
-    width: 250px;
     display: flex;
     flex-wrap: wrap;
   }

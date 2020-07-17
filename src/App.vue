@@ -58,9 +58,9 @@ body {
 .content-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 80px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .container-side-images {
   margin: auto;
@@ -72,7 +72,7 @@ body {
 .footer {
   text-align: center;
   font-family:  'futura std';
-  font-size: 12px;
+  font-size: 14px;
   color: #B3847C;
   margin-bottom: 20px;
 }
@@ -98,8 +98,8 @@ a:active {
   }
   .content-container {
     flex-direction: column;
-    margin-left: 40px;
-    margin-right: 40px;
+    /* margin-left: 40px;
+    margin-right: 40px; */
   }
 }
 @media (max-width: 1024px) {
@@ -107,8 +107,8 @@ a:active {
     display: none;
   }
   .content-container {
-    margin-left: 60px;
-    margin-right: 60px;
+    /* margin-left: 60px;
+    margin-right: 60px; */
 
   }
 }

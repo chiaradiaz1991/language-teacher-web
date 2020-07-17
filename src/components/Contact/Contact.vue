@@ -29,7 +29,7 @@ h3 {
   flex-direction: column;
 }
 a {
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
   color: #325147;
   align-self: center;
@@ -60,9 +60,6 @@ img {
   }
   h3 {
   font-size: 24px;
-}
-  a {
-    font-size: 16px;
   }
 }
 @media (max-width: 1024px) {
