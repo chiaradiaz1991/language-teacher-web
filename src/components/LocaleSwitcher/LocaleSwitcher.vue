@@ -49,4 +49,10 @@ export default {
     background-color: #EED7CE;
     transition: 0.5s;
 }
+
+@media (min-width: 1024px) {
+  .container-locale {
+    justify-content: flex-end;
+  }
+}
 </style>

@@ -68,4 +68,13 @@ a:active {
     margin-right: 50px;
   }
 }
+
+@media (min-width: 1024px) {
+  .contact-container {
+    width: 600px;
+  }
+  .container {
+    justify-content: space-between;
+  }
+}
 </style>

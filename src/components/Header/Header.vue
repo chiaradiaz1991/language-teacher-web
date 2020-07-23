@@ -41,4 +41,9 @@ p {
     font-size: 30px;
   }
 }
+@media (min-width: 1024px) {
+  .header-image {
+    width: 220px;
+  }
+}
 </style>

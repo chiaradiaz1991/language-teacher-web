@@ -85,4 +85,9 @@ img {
   0% { width: 0; }
   100% { width: 60%; }
 }
+@media (min-width: 1024px) {
+  h3 {
+    font-size: 30px;
+  }
+}
 </style>

@@ -79,4 +79,13 @@ p{
   margin: 10px;
   }
 }
+
+@media (min-width: 1024px) {
+  .how-container {
+    width: 800px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+}
 </style>

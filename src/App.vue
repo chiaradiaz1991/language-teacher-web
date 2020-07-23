@@ -81,4 +81,18 @@ a:active {
     flex-direction: row;
   }
 }
+@media (min-width: 1024px) {
+  .app-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .container-side-images {
+    display: block;
+    margin: auto; 
+  }
+  .footer {
+    font-size: 16px;
+  }
+}
 </style>

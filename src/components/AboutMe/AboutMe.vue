@@ -40,4 +40,15 @@ p{
     font-size: 20px;
   }
 }
+@media (min-width: 1024px) {
+  .about-me-container {
+    width: 400px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 22px;
+  }
+}
 </style>
