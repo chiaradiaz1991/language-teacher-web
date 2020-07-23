@@ -3,25 +3,24 @@
     "header": "EN Language Teacher",
     "aboutMe": {
       "title": "EN About Me",
-      "description": "EN About Me:It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like reada.It is a long established factThe point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like reada."
+      "description": {
+        "paragraph-a": "My name is Gosia. I’m from Poland. I have experience as a polish and german teacher for more than 7 years, some of my students are from Egipt, Argentina, Germany, Scotland, Japan, China, among others. Also, I know french, english and a bit of spanish, so if your goal is to know the basics I can help you with those as well.",
+        "paragraph-b": "When I was a child, language learning became my passion. Being on both sides as stundent and a teacher,  allowed to gain skills to offer a high quality learning experience.",
+        "paragraph-c": "One of the best thing about being a teacher is geeting to know people from all around the 🌍.",
+        "paragraph-d": "💡Curious things about me: I love cats, travels and good cinema (Pedro Almodóvar is one of my favorite director)."
+      }
     },
     "howIWork": {
       "title": "EN How I work",
       "individual": "EN individual classes",
-      "online": "EN 100% online",
-      "learn": "EN Learn and have fun",
-      "hours": "EN 2 hours per week",
+      "online": "EN 100% from home",
+      "resources": "EN Online resources",
+      "plan": "A plan that fits your expectations",
+      "learn": "EN Learn while having fun",
       "payment": "EN Payment methods"
     },
-    "languages": {
-      "title": "EN Languages",
-      "pl": "EN Polish",
-      "en": "EN English",
-      "de": "EN Deutsch",
-      "fr": "EN French"
-    },
     "contact": {
-      "title": "EN Contact",
+      "title": "EN Let's Talk",
       "mail": "gosia@gosia",
       "linkedin": "linkedin"
     }

@@ -3,7 +3,7 @@
     <h3>{{$t('main.howIWork.title')}}</h3>
     <div class="icon-container">
       <div class="icon">
-        <img src="../../assets/remote.png" alt />
+        <img src="../../assets/individual.png" alt />
         <p>{{ $t('main.howIWork.individual')}}</p>
       </div>
       <div class="icon">
@@ -11,14 +11,18 @@
         <p>{{ $t('main.howIWork.online')}}</p>
       </div>
       <div class="icon">
+        <img src="../../assets/resources.png" alt />
+        <p>{{ $t('main.howIWork.resources')}}</p>
+      </div>
+      <div class="icon">
+        <img src="../../assets/plan.png" alt />
+        <p>{{ $t('main.howIWork.plan')}}</p>
+      </div>
+      <div class="icon">
         <img src="../../assets/fun.png" alt />
         <p>{{ $t('main.howIWork.learn')}}</p>
       </div>
       <div class="icon">
-        <img src="../../assets/hour.png" alt />
-        <p>{{ $t('main.howIWork.hours')}}</p>
-      </div>
-      <div class="icon-last">
         <img src="../../assets/payment.png" alt />
         <p>{{ $t('main.howIWork.payment')}}</p>
       </div>
@@ -32,55 +36,22 @@ export default {};
 
 <style scoped>
 .how-container {
-  width: 400px;
-  font-family: "futura std";
-  color: #325147;
+  width: 280px;
+  font-family: 'futura std';
+  color:#325147;
+  margin: 40px;
+  padding-top: 25px;
 }
 .icon-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+}
+h3 {
+  font-size: 25px;
+  font-weight: 600;
 }
 .icon {
-  margin-bottom: 15px;
+  text-align: center;
 }
-
-h3 {
-  font-weight: 500;
-  font-size: 28px;
-}
-p {
-  text-align: left;
-  font-size: 18px;
-}
-
-@media (max-width: 425px) {
-  .how-container {
-    width: 300px;
-  }
-  .icon-container {
-    display: flex;
-    flex-direction: column;
-  }
-    h3 {
-    font-size: 24px;
-  }
-}
-
-@media (max-width: 768px) {
-  .icon-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  }
-}
-@media (max-width: 1024px) {
-  .how-container {
-    width: 300px;
-  }
-  .icon-container {
-    display: flex;
-    flex-direction: column;
-  }
+p{
+  font-size: 20px;
 }
 </style>

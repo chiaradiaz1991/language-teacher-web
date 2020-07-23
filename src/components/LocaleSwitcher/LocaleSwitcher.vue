@@ -26,35 +26,27 @@ export default {
 
 <style scoped>
 .main-container {
-  padding: 30px;
+  padding-top: 30px;
 }
 .container-locale {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .locale {
   width: 40px;
   height: 40px;
   border: none;
-  font-size: 25;
+  font-size: 22px;
   cursor: pointer;
   margin-right: 20px;
   color: #325147;
   background-color: transparent;
   outline: none;
-  font-size: 18px;
   font-family: 'futura std';
 }
 .locale:hover {
     background-color: #EED7CE;
     transition: 0.5s;
-}
-@media (max-width: 425px) {
-  .container-locale{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
 }
 </style>

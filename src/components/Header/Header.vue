@@ -1,6 +1,6 @@
 <template>
   <div class="header-container">
-    <img src="../../assets/gosia.png" alt="" class="header-image"/>
+    <img src="../../assets/photo.png" alt="" class="header-image"/>
     <p>{{ $t('main.header') }}</p>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {
   flex-direction: column;
 }
 .header-image {
-  width: 430px;
+  width: 180px;
   margin: auto;
   margin-top: 60px;
   margin-bottom: 30px;
@@ -32,12 +32,13 @@ p {
   justify-content: center;
   align-items: center;
   color: #B3847C;
-  font-size: 24px;
+  font-size: 26px;
   margin: auto;
+  padding: 3px;
 }
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
   .header-image {
     width: 300px;
   }
-}
+} */
 </style>

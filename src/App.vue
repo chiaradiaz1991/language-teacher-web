@@ -2,22 +2,20 @@
   <div>
     <div class="app-container">
       <div class="container-side-images">
-        <img src="../src/assets/gosia-left.png" alt />
+        <img src="../src/assets/gosia-left.png" alt="" />
       </div>
       <div id="app">
         <LocaleSwitcher />
         <Header />
         <div class="content-container">
           <AboutMe />
-          <HowIWork />
-        </div>
-        <div class="content-container">
           <Languages />
-          <Contact />
         </div>
+          <HowIWork />
+          <Contact />
       </div>
       <div class="container-side-images">
-        <img src="../src/assets/gosia-right.png" alt />
+        <img src="../src/assets/gosia-right.png" alt="" />
       </div>
     </div>
     <footer class="footer">website developed with ♡ by <a href="https://chiaradiaz.com" target="_blank">Chiara Diaz.</a></footer>
@@ -50,30 +48,13 @@ body {
   padding: 0;
   background-color: #f7eee7;
 }
-
-.app-container {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 80px;
-}
-.content-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 30px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
 .container-side-images {
-  margin: auto;
-}
-#app {
-  width: 80%;
-  margin: auto;
+  display: none;
 }
 .footer {
   text-align: center;
   font-family:  'futura std';
-  font-size: 14px;
+  font-size: 15px;
   color: #B3847C;
   margin-bottom: 20px;
 }
@@ -88,37 +69,5 @@ a:hover {
 }
 a:active {
   color: #B3847C;
-}
-
-@media (max-width: 425px) {
-  #app {
-    width: 100%;
-  }
-  .container-side-images {
-    display: none;
-  }
-  .content-container {
-    flex-direction: column;
-    /* margin-left: 40px;
-    margin-right: 40px; */
-  }
-}
-@media (max-width: 1024px) {
-  .container-side-images {
-    display: none;
-  }
-  .content-container {
-    /* margin-left: 60px;
-    margin-right: 60px; */
-
-  }
-}
-@media (max-width: 980px) {
-    #app {
-    width: 100%;
-  }
-  .container-side-images {
-    display: none;
-  }
 }
 </style>

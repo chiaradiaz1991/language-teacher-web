@@ -16,20 +16,26 @@
 
 <style scoped>
 .contact-container {
-  width: 400px;
+  width: 280px;
   font-family: "futura std";
   color: #325147;
+  margin: 40px;
+  padding-top: 25px;
+}
+.icon-container {
+  align-items: center;
 }
 h3 {
-  font-weight: 500;
-  font-size: 28px;
+  font-size: 25px;
+  font-weight: 600;
 }
-.container {
-  display: flex;
-  flex-direction: column;
+img {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
 }
 a {
-  font-size: 20px;
+  font-size: 26px;
   text-decoration: none;
   color: #325147;
   align-self: center;
@@ -47,24 +53,5 @@ a:active {
   display: flex;
   flex-direction: row;
   margin-bottom: 15px;
-}
-img {
-  width: 25px;
-  height: 25px;
-  margin-right: 10px;
-}
-
-@media (max-width: 425px) {
-.contact-container {
-    width: 300px;
-  }
-  h3 {
-  font-size: 24px;
-  }
-}
-@media (max-width: 1024px) {
-  .contact-container {
-    width: 300px;
-  }
 }
 </style>
