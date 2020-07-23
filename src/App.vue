@@ -18,6 +18,7 @@
         <img src="../src/assets/gosia-right.png" alt="" />
       </div>
     </div>
+    <ScrollTop />
     <footer class="footer">website developed with ♡ by <a href="https://chiaradiaz.com" target="_blank">Chiara Diaz.</a></footer>
   </div>
 </template>
@@ -29,6 +30,8 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import HowIWork from "./components/HowIWork/HowIWork";
 import Languages from "./components/Lan/Languages";
 import Contact from "./components/Contact/Contact";
+import ScrollTop from './components/SrollTop/ScrollTop';
+
 export default {
   name: "App",
   components: {
@@ -37,7 +40,8 @@ export default {
     AboutMe,
     HowIWork,
     Languages,
-    Contact
+    Contact,
+    ScrollTop
   }
 };
 </script>

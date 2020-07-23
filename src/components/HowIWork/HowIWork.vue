@@ -3,27 +3,27 @@
     <h3>{{$t('main.howIWork.title')}}</h3>
     <div class="icon-container">
       <div class="icon">
-        <img src="../../assets/individual.png" alt />
+        <img src="../../assets/individual.png" class="img" alt />
         <p>{{ $t('main.howIWork.individual')}}</p>
       </div>
       <div class="icon">
-        <img src="../../assets/remote.png" alt />
+        <img src="../../assets/remote.png" class="img" alt />
         <p>{{ $t('main.howIWork.online')}}</p>
       </div>
       <div class="icon">
-        <img src="../../assets/resources.png" alt />
+        <img src="../../assets/resources.png" class="img" alt />
         <p>{{ $t('main.howIWork.resources')}}</p>
       </div>
       <div class="icon">
-        <img src="../../assets/plan.png" alt />
+        <img src="../../assets/plan.png" class="img" alt />
         <p>{{ $t('main.howIWork.plan')}}</p>
       </div>
       <div class="icon">
-        <img src="../../assets/fun.png" alt />
+        <img src="../../assets/fun.png" class="img" alt />
         <p>{{ $t('main.howIWork.learn')}}</p>
       </div>
       <div class="icon">
-        <img src="../../assets/payment.png" alt />
+        <img src="../../assets/payment.png" class="img" alt />
         <p>{{ $t('main.howIWork.payment')}}</p>
       </div>
     </div>
@@ -42,7 +42,8 @@ export default {};
   margin: 40px;
   padding-top: 25px;
 }
-.icon-container {
+.img {
+  width: 45px;
 }
 h3 {
   font-size: 25px;
