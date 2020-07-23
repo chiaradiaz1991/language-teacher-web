@@ -47,6 +47,7 @@ img {
   box-shadow: 0px 4px 10px rgba(116, 78, 153, 0.2);
   border-radius: 50%;
   margin-bottom: 30px;
+  width: 50px;
 }
 @keyframes appear {
   0% { 
@@ -57,6 +58,11 @@ img {
   }
   100% {
     opacity: 1;
+  }
+}
+@media (min-width: 768px) {
+  .bottom-right {
+    display: none;
   }
 }
 </style>

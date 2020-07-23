@@ -74,4 +74,11 @@ a:hover {
 a:active {
   color: #B3847C;
 }
+
+@media (min-width: 768px) {
+  .content-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
 </style>

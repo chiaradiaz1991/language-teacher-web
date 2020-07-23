@@ -54,4 +54,18 @@ a:active {
   flex-direction: row;
   margin-bottom: 15px;
 }
+@media (min-width: 768px) {
+  .contact-container {
+    padding-top: 0px;
+  }
+  .container {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .icon-container {
+    margin-right: 50px;
+  }
+}
 </style>

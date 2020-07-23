@@ -36,9 +36,9 @@ p {
   margin: auto;
   padding: 3px;
 }
-/* @media (max-width: 425px) {
-  .header-image {
-    width: 300px;
+@media (min-width: 768px) {
+  p {
+    font-size: 30px;
   }
-} */
+}
 </style>

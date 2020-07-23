@@ -32,5 +32,12 @@ h3 {
 p{
   font-size: 18px;
 }
-
+@media (min-width: 768px) {
+  br {
+    display: none;
+  }
+  p {
+    font-size: 20px;
+  }
+}
 </style>

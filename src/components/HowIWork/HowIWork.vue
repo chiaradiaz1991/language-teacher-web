@@ -55,4 +55,28 @@ h3 {
 p{
   font-size: 20px;
 }
+@media (min-width: 768px) {
+  .how-container {
+  padding-top: 0px;
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  p {
+    font-size: 22px;
+    width: 180px;
+  }
+  .icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .img {
+  width: 55px;
+  }
+  .icon {
+  margin: 10px;
+  }
+}
 </style>
