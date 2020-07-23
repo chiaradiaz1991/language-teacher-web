@@ -76,5 +76,11 @@ a:active {
   .container {
     justify-content: space-between;
   }
+  h3 {
+    font-size: 30px;
+  }
+  a {
+    font-size: 26px;
+  }
 }
 </style>

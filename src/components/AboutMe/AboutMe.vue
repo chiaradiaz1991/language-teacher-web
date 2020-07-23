@@ -49,6 +49,7 @@ p{
   }
   p {
     font-size: 22px;
+    line-height: 27px;
   }
 }
 </style>
