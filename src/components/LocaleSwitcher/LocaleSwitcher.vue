@@ -37,7 +37,7 @@ export default {
   width: 40px;
   height: 40px;
   border: none;
-  font-size: 22px;
+  font-size: 18px;
   cursor: pointer;
   margin-right: 20px;
   color: #325147;

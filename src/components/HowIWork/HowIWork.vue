@@ -46,7 +46,7 @@ export default {};
   width: 45px;
 }
 h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
 }
 .icon {
@@ -82,7 +82,7 @@ p{
     width: 800px;
   }
   h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 </style>

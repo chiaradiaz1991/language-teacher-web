@@ -31,7 +31,7 @@
   align-items: center;
 }
 h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
 }
 p {
@@ -95,7 +95,7 @@ a:active {
     justify-content: space-between;
   }
   h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
   a {
     font-size: 18px;

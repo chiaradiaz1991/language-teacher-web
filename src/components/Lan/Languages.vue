@@ -39,7 +39,7 @@ export default {};
   margin-bottom: 20px;
 }
 h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
 }
 p {
@@ -90,7 +90,7 @@ img {
 }
 @media (min-width: 1024px) {
   h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 </style>

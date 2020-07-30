@@ -26,7 +26,7 @@ export default {
   margin: 40px;
 }
 h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
 }
 p{
@@ -45,7 +45,7 @@ p{
     width: 400px;
   }
   h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
   p {
     font-size: 16px;
