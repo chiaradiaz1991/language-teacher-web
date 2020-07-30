@@ -1,14 +1,19 @@
 <template>
   <div class="contact-container">
-    <h3>{{ $t('main.contact.title')}}</h3>
+    <h3>{{ $t("main.contact.title") }}</h3>
     <div class="container">
-      <div class="icon-container">
-        <img src="../../assets/mail.png" alt />
-        <a href="mailto:chiara.diaz1991@gmail.com">{{$t('main.contact.mail')}}</a>
-      </div>
-      <div class="icon-container">
-        <img src="../../assets/linkedIn.png" alt />
-        <a href="#" target="_blank">{{$t('main.contact.linkedin')}}</a>
+      <p>{{ $t("main.contact.corporate") }}</p>
+      <div class="email-linkedin">
+        <div class="icon-container">
+          <img src="../../assets/mail.png" alt />
+          <a href="mailto:chiara.diaz1991@gmail.com">{{
+            $t("main.contact.mail")
+          }}</a>
+        </div>
+        <div class="icon-container">
+          <img src="../../assets/linkedIn.png" alt />
+          <a href="#" target="_blank">{{ $t("main.contact.linkedin") }}</a>
+        </div>
       </div>
     </div>
   </div>
@@ -28,6 +33,10 @@
 h3 {
   font-size: 22px;
   font-weight: 600;
+}
+p {
+  font-size: 18px;
+  /* background-color: #b3847c; */
 }
 img {
   width: 22px;
@@ -54,6 +63,11 @@ a:active {
   flex-direction: row;
   margin-bottom: 15px;
 }
+.email-linkedin {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 @media (min-width: 768px) {
   .contact-container {
     padding-top: 0px;
@@ -61,14 +75,18 @@ a:active {
   .container {
     width: 700px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
   }
   .icon-container {
     margin-right: 50px;
   }
+  .email-linkedin {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  }
 }
-
 @media (min-width: 1024px) {
   .contact-container {
     width: 600px;

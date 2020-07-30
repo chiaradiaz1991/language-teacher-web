@@ -48,6 +48,9 @@ p {
 img {
   width: 40px;
   height: 40px;
+  box-shadow: 0px 4px 10px rgba(116, 78, 153, 0.2);
+  border-radius: 50%;
+
 }
 .bar {
   width: 90%;

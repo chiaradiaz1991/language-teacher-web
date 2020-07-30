@@ -13,6 +13,7 @@
         </div>
           <HowIWork />
           <Contact />
+          <Form />
       </div>
       <div class="container-side-images">
         <img src="../src/assets/gosia-right.png" alt="" />
@@ -31,6 +32,7 @@ import HowIWork from "./components/HowIWork/HowIWork";
 import Languages from "./components/Lan/Languages";
 import Contact from "./components/Contact/Contact";
 import ScrollTop from './components/SrollTop/ScrollTop';
+import Form from './components/Form/Form';
 
 export default {
   name: "App",
@@ -41,7 +43,8 @@ export default {
     HowIWork,
     Languages,
     Contact,
-    ScrollTop
+    ScrollTop,
+    Form,
   }
 };
 </script>
