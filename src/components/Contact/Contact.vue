@@ -26,7 +26,7 @@
   align-items: center;
 }
 h3 {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
 }
 img {
@@ -35,7 +35,7 @@ img {
   margin-right: 10px;
 }
 a {
-  font-size: 26px;
+  font-size: 18px;
   text-decoration: none;
   color: #325147;
   align-self: center;
@@ -77,10 +77,10 @@ a:active {
     justify-content: space-between;
   }
   h3 {
-    font-size: 30px;
+    font-size: 22px;
   }
   a {
-    font-size: 26px;
+    font-size: 18px;
   }
 }
 </style>

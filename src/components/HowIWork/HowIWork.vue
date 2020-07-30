@@ -46,14 +46,14 @@ export default {};
   width: 45px;
 }
 h3 {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
 }
 .icon {
   text-align: center;
 }
 p{
-  font-size: 20px;
+  font-size: 16px;
 }
 @media (min-width: 768px) {
   .how-container {
@@ -64,16 +64,13 @@ p{
   justify-content: space-between;
   }
   p {
-    font-size: 22px;
+    font-size: 16px;
     width: 180px;
   }
   .icon-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  .img {
-  width: 55px;
   }
   .icon {
   margin: 10px;
@@ -85,7 +82,7 @@ p{
     width: 800px;
   }
   h3 {
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 </style>

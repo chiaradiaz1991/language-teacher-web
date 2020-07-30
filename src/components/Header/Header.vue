@@ -32,13 +32,13 @@ p {
   justify-content: center;
   align-items: center;
   color: #B3847C;
-  font-size: 26px;
+  font-size: 18px;
   margin: auto;
   padding: 3px;
 }
 @media (min-width: 768px) {
   p {
-    font-size: 30px;
+    font-size: 26px;
   }
 }
 @media (min-width: 1024px) {

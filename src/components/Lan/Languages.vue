@@ -39,11 +39,11 @@ export default {};
   margin-bottom: 20px;
 }
 h3 {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
 }
 p {
-  font-size: 18px;
+  font-size: 16px;
 }
 img {
   width: 40px;
@@ -54,7 +54,7 @@ img {
   padding-top: 3px;
   padding-bottom: 3px;
   color: #B3847C;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   text-align: center;
   background-color: #EED7CE;
@@ -87,7 +87,7 @@ img {
 }
 @media (min-width: 1024px) {
   h3 {
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 </style>

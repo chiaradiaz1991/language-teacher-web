@@ -26,18 +26,18 @@ export default {
   margin: 40px;
 }
 h3 {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
 }
 p{
-  font-size: 18px;
+  font-size: 16px;
 }
 @media (min-width: 768px) {
   br {
     display: none;
   }
   p {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 @media (min-width: 1024px) {
@@ -45,10 +45,10 @@ p{
     width: 400px;
   }
   h3 {
-    font-size: 30px;
+    font-size: 22px;
   }
   p {
-    font-size: 22px;
+    font-size: 16px;
     line-height: 27px;
   }
 }

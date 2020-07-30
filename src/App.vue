@@ -58,7 +58,7 @@ body {
 .footer {
   text-align: center;
   font-family:  'futura std';
-  font-size: 15px;
+  font-size: 12px;
   color: #B3847C;
   margin-bottom: 20px;
 }
@@ -86,13 +86,13 @@ a:active {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
   .container-side-images {
     display: block;
-    margin: auto; 
   }
   .footer {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 </style>
