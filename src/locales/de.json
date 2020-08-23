@@ -1,29 +1,36 @@
 {
   "main": {
-    "header": "DE Language Teacher",
+    "header": "Sprachlehrerin",
     "aboutMe": {
-      "title": "DE About Me",
-      "description": "DE About Me:It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like reada.It is a long established factThe point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like reada."
+      "title": "Über mich",
+      "description": {
+        "paragraph-a": "Ich bin Gosia. Ich komme aus Polen. Seit über  7 Jahren arbeite ich als Polnisch- und  Deutschlehrerin. Meine Studentinnen und Studenten kommen aus den verschiedensten Ländern der Welt, wie Ägypten, Argentinien, Deutschland, Schottland, Japan und China. Neben Polnisch und Deutsch spreche ich auch Englisch, Französisch und ein bisschen Spanisch. Wenn du die Grundlagen von diesen Sprachen beherrschen möchtest, helfe ich dir gerne dabei.",
+        "paragraph-b": "Bereits als Kind wurde das Sprachenlernen zu einer meiner größten Leidenschaften. Da ich aus meiner eigenen Erfahrung beide Perspektiven kenne - die vom Lernenden und Lehrer, kann ich mich besser mit den Schwierigkeiten meiner Studenten identifizieren und and sie individuell angepasste Lösungen anbieten.",
+        "paragraph-c": "Das Beste daran, Lehrer zu sein, ist für mich die Möglichkeit Menschen aus aller 🌍 kennenzulernen.",
+        "paragraph-d": "💡Interessante Fakten über mich: Ich❤️Katzen, Reisen und gute Filme (Pedro Almodóvar ist einer meiner Lieblingsregisseure)."
+      }
     },
     "howIWork": {
-      "title": "DE How I work",
-      "individual": "DE individual classes",
-      "online": "DE 100% online",
-      "learn": "DE Learn and have fun",
-      "hours": "DE 2 hours per week",
-      "payment": "DE Payment methods"
+      "title": "Wie ich arbeite",
+      "individual": "Einzelunterricht",
+      "online": "100% von zu Hause aus",
+      "resources": "Online-Ressourcen",
+      "plan": "Ein Plan, der deinen Erwartungen entsprich",
+      "learn": "Lernen mit Spaß",
+      "payment": "Zahlungsmethoden"
     },
     "languages": {
-      "title": "DE Languages",
-      "pl": "DE Polish",
-      "en": "DE English",
-      "de": "DE Deutsch",
-      "fr": "DE French"
+      "title": "Sprachen",
+      "pl": "Polish",
+      "en": "English",
+      "de": "Deutsch",
+      "fr": "French",
+      "es": "Spanish"
     },
     "contact": {
-      "title": "DE Contact",
-      "corporate": "EN If you are looking for a corporate plan, I have the perfect offer for you!",
-      "mail": "gosia@gosia",
+      "title": "Lass uns reden",
+      "corporate": "Wenn du nach einem Unternehmensplan suchst, habe ich das perfekte Angebot für dich!",
+      "mail": "gosia.vailleau@gmail.com",
       "linkedin": "linkedin"
     }
   }

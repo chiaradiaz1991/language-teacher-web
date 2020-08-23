@@ -1,30 +1,30 @@
 <template>
   <div class="how-container">
-    <h3>{{$t('main.howIWork.title')}}</h3>
+    <h3>{{ $t("main.howIWork.title") }}</h3>
     <div class="icon-container">
       <div class="icon">
         <img src="../../assets/individual.png" class="img" alt />
-        <p>{{ $t('main.howIWork.individual')}}</p>
+        <p>{{ $t("main.howIWork.individual") }}</p>
       </div>
       <div class="icon">
         <img src="../../assets/remote.png" class="img" alt />
-        <p>{{ $t('main.howIWork.online')}}</p>
+        <p>{{ $t("main.howIWork.online") }}</p>
       </div>
       <div class="icon">
         <img src="../../assets/resources.png" class="img" alt />
-        <p>{{ $t('main.howIWork.resources')}}</p>
-      </div>
-      <div class="icon">
-        <img src="../../assets/plan.png" class="img" alt />
-        <p>{{ $t('main.howIWork.plan')}}</p>
-      </div>
-      <div class="icon">
-        <img src="../../assets/fun.png" class="img" alt />
-        <p>{{ $t('main.howIWork.learn')}}</p>
+        <p>{{ $t("main.howIWork.resources") }}</p>
       </div>
       <div class="icon">
         <img src="../../assets/payment.png" class="img" alt />
-        <p>{{ $t('main.howIWork.payment')}}</p>
+        <p>{{ $t("main.howIWork.payment") }}</p>
+      </div>
+      <div class="icon">
+        <img src="../../assets/fun.png" class="img" alt />
+        <p>{{ $t("main.howIWork.learn") }}</p>
+      </div>
+      <div class="icon">
+        <img src="../../assets/plan.png" class="img" alt />
+        <p>{{ $t("main.howIWork.plan") }}</p>
       </div>
     </div>
   </div>
@@ -35,10 +35,11 @@ export default {};
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
 .how-container {
   width: 280px;
-  font-family: 'futura std';
-  color:#325147;
+  font-family: "Work Sans", sans-serif;
+  color: #325147;
   margin: 40px;
   padding-top: 25px;
 }
@@ -52,16 +53,16 @@ h3 {
 .icon {
   text-align: center;
 }
-p{
+p {
   font-size: 16px;
 }
 @media (min-width: 768px) {
   .how-container {
-  padding-top: 0px;
-  width: 700px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    padding-top: 0px;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   p {
     font-size: 16px;
@@ -73,7 +74,8 @@ p{
     justify-content: center;
   }
   .icon {
-  margin: 10px;
+    margin: 10px;
+    align-self: center;
   }
 }
 

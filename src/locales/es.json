@@ -1,0 +1,37 @@
+{
+  "main": {
+    "header": "Profesora de idiomas",
+    "aboutMe": {
+      "title": "Sobre mi",
+      "description": {
+        "paragraph-a": "Mi nombre es Gosia, soy de Polonia. Tengo experiencia de más de 7 años como profesora de polaco y alemán, Algunos de mis estudiantes fueron de Egipto, Argentina, Alemania, Escosia, Japón, China, entre otros. También cuento con conocimientos de francés, inglés y un poco de español, así que si tu objetivo es aprender a comunicarte, puedo ayudarte con esos también.",
+        "paragraph-b": "Desde muy pequeña, aprender idiomas se convirtió en mi pasión. Estar en ambos lados, enseñando y aprendiendo, me permitió desarrollar habilidades para ofrecer una educación de alta calidad.",
+        "paragraph-c": "Lo mejor de ser profesora de idiomas es conocer a gente de todo el mundo 🌍.",
+        "paragraph-d": "💡Algo curioso sobre mi: Me encantan los gatos, los viajes y el cine (Pedro Almodóvar es uno de mis directores favoritos)."
+      }
+    },
+    "howIWork": {
+      "title": "Como trabajo",
+      "individual": "Clases individuales",
+      "online": "100% desde casa",
+      "resources": "Material de estudio online",
+      "plan": "Un plan acorde a tus necesidades",
+      "learn": "Aprender mientras nos divertimos",
+      "payment": "Métodos de pagos online"
+    },
+    "languages": {
+      "title": "Lenguages",
+      "pl": "Polaco",
+      "en": "Inglés",
+      "de": "Alemán",
+      "fr": "Francés",
+      "es": "Español"
+    },
+    "contact": {
+      "title": "Contactame",
+      "corporate": "¡Si estás en búsqueda de un plan corporativo, tengo una oferta perfecta para ti!",
+      "mail": "gosia.vailleau@gmail.com",
+      "linkedin": "linkedin"
+    }
+  }
+}

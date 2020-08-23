@@ -6,7 +6,7 @@
       <div class="email-linkedin">
         <div class="icon-container">
           <img src="../../assets/mail.png" alt />
-          <a href="mailto:chiara.diaz1991@gmail.com">{{
+          <a href="mailto:gosia.valleau@gmail.com">{{
             $t("main.contact.mail")
           }}</a>
         </div>
@@ -20,9 +20,10 @@
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
 .contact-container {
   width: 280px;
-  font-family: "futura std";
+  font-family: 'Work Sans', sans-serif;
   color: #325147;
   margin: 40px;
   padding-top: 25px;

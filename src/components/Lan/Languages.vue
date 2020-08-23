@@ -18,6 +18,10 @@
         <img src="../../assets/fr.png" alt />
         <div class="bar" id="fr">60%</div>
       </div>
+            <div class="lang-container">
+        <img src="../../assets/es.png" alt />
+        <div class="bar" id="es">50%</div>
+      </div>
     </div>
   </div>
 </template>
@@ -27,9 +31,10 @@ export default {};
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
 .languages-container {
   width: 280px;
-  font-family: "futura std";
+  font-family: 'Work Sans', sans-serif;
   color: #325147;
   margin: 40px;
 }
@@ -75,6 +80,11 @@ img {
   animation: progressBarFr 3s ease-in-out;
   animation-fill-mode:both; 
 }
+#es {
+  width: 40%;
+  animation: progressBarEs 3s ease-in-out;
+  animation-fill-mode:both; 
+}
 
 @keyframes progressBarPlDe {
   0% { width: 0; }
@@ -87,6 +97,10 @@ img {
 @keyframes progressBarFr {
   0% { width: 0; }
   100% { width: 60%; }
+}
+@keyframes progressBarEs {
+  0% { width: 0; }
+  100% { width: 50%; }
 }
 @media (min-width: 1024px) {
   h3 {

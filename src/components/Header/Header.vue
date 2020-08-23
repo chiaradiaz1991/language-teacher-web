@@ -12,6 +12,7 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
 .header-container {
   display: flex;
   flex-direction: column;
@@ -23,7 +24,7 @@ export default {
   margin-bottom: 30px;
 }
 p {
-  font-family: 'futura std';
+  font-family: 'Work Sans', sans-serif;
   font-weight: 100;
   background-color: #EED7CE;
   width: 300px;

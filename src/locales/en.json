@@ -1,35 +1,36 @@
 {
   "main": {
-    "header": "EN Language Teacher",
+    "header": "Language Teacher",
     "aboutMe": {
-      "title": "EN About Me",
+      "title": "About Me",
       "description": {
         "paragraph-a": "My name is Gosia. I’m from Poland. I have experience as a polish and german teacher for more than 7 years, some of my students are from Egipt, Argentina, Germany, Scotland, Japan, China, among others. Also, I know french, english and a bit of spanish, so if your goal is to know the basics I can help you with those as well.",
-        "paragraph-b": "When I was a child, language learning became my passion. Being on both sides as stundent and a teacher,  allowed to gain skills to offer a high quality learning experience.",
+        "paragraph-b": "When I was a child, language learning became my passion. Being on both sides as stundent and a teacher,  allowed me to gain skills to offer a high quality learning experience.",
         "paragraph-c": "One of the best thing about being a teacher is geeting to know people from all around the 🌍.",
         "paragraph-d": "💡Curious things about me: I love cats, travels and good cinema (Pedro Almodóvar is one of my favorite director)."
       }
     },
     "howIWork": {
-      "title": "EN How I work",
-      "individual": "EN individual classes",
-      "online": "EN 100% from home",
-      "resources": "EN Online resources",
+      "title": "How I work",
+      "individual": "Individual classes",
+      "online": "100% from home",
+      "resources": "Online resources",
       "plan": "A plan that fits your expectations",
-      "learn": "EN Learn while having fun",
-      "payment": "EN Payment methods"
+      "learn": "Learn while having fun",
+      "payment": "Payment methods"
     },
     "languages": {
-      "title": "DE Languages",
+      "title": "Languages",
       "pl": "Polish",
       "en": "English",
       "de": "Deutsch",
-      "fr": "French"
+      "fr": "French",
+      "es": "Spanish"
     },
     "contact": {
-      "title": "EN Let's Talk",
-      "corporate": "EN If you are looking for a corporate plan, I have the perfect offer for you!",
-      "mail": "gosia@gosia",
+      "title": "Let's Talk",
+      "corporate": "If you are looking for a corporate plan, I have the perfect offer for you!",
+      "mail": "gosia.vailleau@gmail.com",
       "linkedin": "linkedin"
     }
   }

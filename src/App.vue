@@ -50,17 +50,19 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
 body {
   margin: 0;
   padding: 0;
   background-color: #f7eee7;
+  font-family: 'Work Sans', sans-serif;
 }
 .container-side-images {
   display: none;
 }
 .footer {
   text-align: center;
-  font-family:  'futura std';
+  font-family: 'Work Sans', sans-serif;
   font-size: 12px;
   color: #B3847C;
   margin-bottom: 20px;

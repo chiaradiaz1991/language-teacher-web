@@ -19,9 +19,10 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
 .about-me-container {
   width: 280px;
-  font-family: 'futura std';
+  font-family: 'Work Sans', sans-serif;
   color:#325147;
   margin: 40px;
 }
