@@ -25,9 +25,9 @@ export default {
 }
 p {
   font-family: 'Work Sans', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   background-color: #EED7CE;
-  width: 300px;
+  min-width: 300px;
   height: 40px;
   display: flex;
   justify-content: center;

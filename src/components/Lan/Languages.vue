@@ -1,6 +1,6 @@
 <template>
   <div class="languages-container">
-    <h1>{{ $t('main.languages.title') }}</h1>
+    <h3>{{ $t('main.languages.title') }}</h3>
     <div class="lang-main-container">
       <div class="lang-container">
         <img src="../../assets/pl.png" alt />
@@ -43,9 +43,9 @@ export default {};
   align-items: center;
   margin-bottom: 20px;
 }
-h1 {
+h3 {
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 600;
 }
 p {
   font-size: 16px;
