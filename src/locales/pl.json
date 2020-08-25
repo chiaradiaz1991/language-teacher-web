@@ -1,28 +1,35 @@
 {
   "main": {
-    "header": "PL Language Teacher",
+    "header": "Nauczyciel języków obcych",
     "aboutMe": {
-      "title": "PL About Me",
-      "description": "PL About Me:It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like reada.It is a long established factThe point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like reada."
+      "title": "O mnie",
+      "description": {
+        "paragraph-a": "Mam na imię Gosia i pochodzę z Polski. Jestem nauczycielką z ponad siedmioletnim stażem- uczę języka polskiego jako obcego oraz niemieckiego. Wśród moich uczniów są osoby z najróżniejszych krajów: Egiptu, Argentyny, Niemiec, Szkocji, Japonii czy Chin. Oprócz polskiego i niemieckiego znam również angielski, francuski i hiszpański. Jeżeli twoim celem jest opanowanie podstaw tych języków, chętnie Ci w tym pomogę.",
+        "paragraph-b": "Już kiedy byłam dzieckiem nauka języków stała się moją wielką pasją. Znajomość obydwu perspektyw- zarówno tej ucznia, jak i nauczyciela, pozwala mi lepiej zrozumieć trudności, jakie napotykają na swojej drodze moi studenci i zaoferować im zindywidualizowane i profesjonalne nauczanie języka.",
+        "paragraph-c": "Jedną z największych zalet bycia nauczycielem jest możliwość poznawania ludzi ze wszystkich zakątków świata 🌍.",
+        "paragraph-d": "💡Ciekawe fakty o mnie: Uwielbiam koty, podróże i dobre kino (Pedro Almodóvar jest jednym z moich ulubionych reżyserów)."
+      }
     },
     "howIWork": {
-      "title": "PL How I work",
-      "individual": "PL individual classes",
-      "online": "PL 100% online",
-      "learn": "PL Learn and have fun",
-      "hours": "PL 2 hours per week",
-      "payment": "PL Payment methods"
+      "title": "Jak pracuję",
+      "individual": "Lekcje indywidualne",
+      "online": "100% z domu",
+      "resources": "Zasoby internetowe",
+      "plan": "Plan na miarę twoich oczekiwań",
+      "learn": "Nauka z przyjemnością",
+      "payment": "Metody płatności"
     },
     "languages": {
-      "title": "PL Languages",
-      "pl": "PL Polish",
-      "en": "PL English",
-      "de": "PL Deutsch",
-      "fr": "PL French"
+      "title": "Języki",
+      "pl": "Polish",
+      "en": "English",
+      "de": "Deutsch",
+      "fr": "French",
+      "es": "Spanish"
     },
     "contact": {
-      "title": "PL Contact",
-      "corporate": "EN If you are looking for a corporate plan, I have the perfect offer for you!",
+      "title": "Napisz do mnie",
+      "corporate": "Jeśli szukasz planu dla swojej firmy, mam dla Ciebie idealną ofertę!",
       "mail": "gosia.vailleau@gmail.com",
       "linkedin": "linkedin"
     }

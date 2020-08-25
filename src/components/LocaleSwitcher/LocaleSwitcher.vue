@@ -40,7 +40,7 @@ export default {
   border: none;
   font-size: 18px;
   cursor: pointer;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   color: #325147;
   background-color: transparent;
   outline: none;
