@@ -48,6 +48,8 @@ export default {
 }
 .locale:hover {
     background-color: #EED7CE;
+    padding: 5px;
+    text-align: center;
     transition: 0.5s;
 }
 
