@@ -42,6 +42,7 @@ export default {
   cursor: pointer;
   text-align: center;
   /* margin-right: 20px; */
+  padding: 5px;
   color: #325147;
   background-color: transparent;
   outline: none;
@@ -49,7 +50,7 @@ export default {
 }
 .locale:hover {
     background-color: #EED7CE;
-    /* padding: 5px; */
+    padding: 5px;
     text-align: center;
     transition: 0.5s;
 }
