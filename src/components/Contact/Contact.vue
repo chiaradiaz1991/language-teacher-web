@@ -12,7 +12,7 @@
         </div>
         <div class="icon-container">
           <img src="../../assets/linkedIn.png" alt />
-          <a href="#" target="_blank">{{ $t("main.contact.linkedin") }}</a>
+          <a href="https://www.linkedin.com/in/ma%C5%82gorzata-vailleau-wo%C5%82czyk-18a3601b4/" target="_blank">{{ $t("main.contact.linkedin") }}</a>
         </div>
       </div>
     </div>
