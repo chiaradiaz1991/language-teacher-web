@@ -1,28 +1,35 @@
 {
   "main": {
-    "header": "FR Language Teacher",
+    "header": "fr language Teacher",
     "aboutMe": {
-      "title": "FR About Me",
-      "description": "FR About Me:It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like reada.It is a long established factThe point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like reada."
+      "title": "FR",
+      "description": {
+        "paragraph-a": "fr",
+        "paragraph-b": "fr",
+        "paragraph-c": "fr",
+        "paragraph-d": "💡fr"
+      }
     },
     "howIWork": {
-      "title": "FR How I work",
-      "individual": "FR individual classes",
-      "online": "FR 100% online",
-      "learn": "FR Learn and have fun",
-      "hours": "FR 2 hours per week",
-      "payment": "FR Payment methods"
+      "title": "FR",
+      "individual": "fr",
+      "online": "100% fr",
+      "resources": "fr",
+      "plan": "fr",
+      "learn": "fr",
+      "payment": "fr"
     },
     "languages": {
       "title": "FR Languages",
-      "pl": "FR Polish",
-      "en": "FR English",
-      "de": "FR Deutsch",
-      "fr": "FR French"
+      "pl": "Polish",
+      "en": "English",
+      "de": "Deutsch",
+      "fr": "French",
+      "es": "Spanish"
     },
     "contact": {
       "title": "FR Contact",
-      "corporate": "EN If you are looking for a corporate plan, I have the perfect offer for you!",
+      "corporate": "fr",
       "mail": "gosia.vailleau@gmail.com",
       "linkedin": "linkedin"
     }

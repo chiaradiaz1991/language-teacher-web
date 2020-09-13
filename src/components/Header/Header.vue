@@ -1,6 +1,6 @@
 <template>
   <div class="header-container">
-    <img src="../../assets/photo.png" alt="" class="header-image"/>
+    <img src="../../assets/gosia-profile.png" alt="" class="header-image"/>
     <p>{{ $t('main.header') }}</p>
   </div>
 </template>
@@ -22,6 +22,7 @@ export default {
   margin: auto;
   margin-top: 60px;
   margin-bottom: 30px;
+  border-radius: 50%;
 }
 p {
   font-family: 'Work Sans', sans-serif;

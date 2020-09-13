@@ -9,7 +9,7 @@ export default {
 
 <style scoped>
 #form {
-  height: 500px;
+  height: 600px;
   margin: auto;
   width: 80%;
   display: flex;
@@ -18,13 +18,13 @@ export default {
 
 @media (min-width: 768px) {
 #form {
-  height: 420px;
+  height: 520px;
   }
 }
 
 @media (min-width: 1024px) {
   #form {
-    height: 460px;
+    height: 550px;
   }
 }
 </style>
